@@ -9,6 +9,7 @@ import "../Component/Hero.css";
 import heroFot from "../assets/FotBar1.png";
 import Logos from "../assets/LaetaLogos.png";
 import bgHero from "../assets/FotBar2.png";
+import LogoRes from "../assets/LaetaLogoD.png";
 
 const Hero = () => {
   const location = useLocation();
@@ -32,6 +33,7 @@ const Hero = () => {
         <img className="heroImg" src={heroFot} data-aos="fade-up" data-aos-duration="900"/>
         <img className="heroLogo" src={Logos} data-aos="fade-up" data-aos-duration="900" data-aos-delay="200"/>
         <img className="bgHero"src={bgHero}/>
+        <img className="LogoRes"src={LogoRes}/>
       </div>
     </div>
   );

@@ -7,6 +7,8 @@
         flex-direction: column;
         padding: 0;
         margin: 0;
+        z-index: 1;
+        position: relative;
     }
     
     .talent h1 {
@@ -27,13 +29,15 @@
         justify-content: center;
         align-items: center;
         margin: 0;
+        z-index: 5;
     }
     
     .swiper {
         width: 800px;
         height: 700px;
         margin: 0;
-        z-index: 4;
+        z-index: 2;
+        position: relative;
     }
     
     .swiperWrap {
@@ -108,7 +112,7 @@
         .talent {
             height: 700px;
             margin-top: 120px;
-            z-index: 22;
+            z-index: 1;
         }
         .talentTextHead {
             text-align: center;
@@ -123,29 +127,30 @@
             display: none;
         }
         .CharMila {
-            width: 250px;
+            width: 270px;
         }
         .CharSevina {
-            width: 370px;
+            width: 250px;
         }
         .CharAiri {
-            width: 400px;
+            width: 270px;
         }
         .CharAluna {
-            width: 310px;
+            width: 220px;
         }
         .CharShaon {
-            width: 380px;
+            width: 280px;
         }
         .CharAlthea {
-            width: 370px;
+            width: 280px;
         }
         .CharOriel {
-            width: 380px;
+            width: 280px;
         }
         .swiper-button-next,
         .swiper-button-prev {
             position: fixed;
-            z-index: 21;
+            z-index: 3;
+            pointer-events: auto;
         }
     }

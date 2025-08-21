@@ -29,11 +29,23 @@
         width: 100%;
     }
     
+    .LogoRes {
+        display: none;
+    }
+    
     @media only screen and (max-width: 1000px) {
         .heroImg {
-            width: 450px;
+            display: none;
         }
         .heroLogo {
-            width: 200px;
+            display: none;
+        }
+        .bgHero {
+            position: absolute;
+            width: 1000px;
+        }
+        .LogoRes {
+            display: block;
+            width: 180px;
         }
     }
