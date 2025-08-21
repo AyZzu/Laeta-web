@@ -63,76 +63,76 @@ export const getVideoMila = async () => {
 // SEVINA REINA API
 export const ProfileSevina = async () => {
   const profileSevina = await axios.get(`${BASE_URL}/channels?id=UCdj5dtnp5WEdwuASQvcQfZA&key=${API_KEY}&part=snippet,statistics`);
-  console.log({ profile: profileSevina.data });
+  // console.log({ profile: profileSevina.data });
   return profileSevina.data.items;
 };
 
 export const getDebutSevina = async () => {
   const debutSevina = await axios.get(`${BASE_URL}/videos?id=2e3L-Sizf4U&key=${API_KEY}&part=snippet`);
-  console.log({ debutSevina: debutSevina.data.items[0].snippet });
+  // console.log({ debutSevina: debutSevina.data.items[0].snippet });
   return debutSevina.data.items;
 };
 
 export const getVideoSevina = async () => {
   const UploadSevina = await axios.get(`${BASE_URL}/playlistItems?part=snippet&playlistId=${PLAYLIST_ID_SEVINA}&maxResults=18&key=${API_KEY}`);
-  console.log({ UploadSevina: UploadSevina.data.items });
+  // console.log({ UploadSevina: UploadSevina.data.items });
   return UploadSevina.data.items;
 };
 
 // AIRI AIRINTIKA API
 export const ProfileAiri = async () => {
   const profileAiri = await axios.get(`${BASE_URL}/channels?id=UCnlFvQbfsH2RFUAihZxIRGg&key=${API_KEY}&part=snippet,statistics`);
-  console.log({ profile: profileAiri.data });
+  // console.log({ profile: profileAiri.data });
   return profileAiri.data.items;
 };
 
 export const getDebutAiri = async () => {
   const debutAiri = await axios.get(`${BASE_URL}/videos?id=QFAoSb9owlU&key=${API_KEY}&part=snippet`);
-  console.log({ debutAiri: debutAiri.data.items[0].snippet });
+  // console.log({ debutAiri: debutAiri.data.items[0].snippet });
   return debutAiri.data.items;
 };
 
 export const getVideoAiri = async () => {
   const UploadAiri = await axios.get(`${BASE_URL}/playlistItems?part=snippet&playlistId=${PLAYLIST_ID_AIRI}&maxResults=18&key=${API_KEY}`);
-  console.log({ UploadAiri: UploadAiri.data.items });
+  // console.log({ UploadAiri: UploadAiri.data.items });
   return UploadAiri.data.items;
 };
 
 // ALUNA DIVA API
 export const ProfileAluna = async () => {
   const profileAluna = await axios.get(`${BASE_URL}/channels?id=UCk2bRG6B9T5mYDRfeN4k8-w&key=${API_KEY}&part=snippet,statistics`);
-  console.log({ profileAluna: profileAluna.data });
+  // console.log({ profileAluna: profileAluna.data });
   return profileAluna.data.items;
 };
 
 export const getDebutAluna = async () => {
   const debutAluna = await axios.get(`${BASE_URL}/videos?id=fNtXfZ2Qbmw&key=${API_KEY}&part=snippet`);
-  console.log({ debutAluna: debutAluna.data.items[0].snippet });
+  // console.log({ debutAluna: debutAluna.data.items[0].snippet });
   return debutAluna.data.items;
 };
 
 export const getVideoAluna = async () => {
   const UploadAluna = await axios.get(`${BASE_URL}/playlistItems?part=snippet&playlistId=${PLAYLIST_ID_ALUNA}&maxResults=18&key=${API_KEY}`);
-  console.log({ UploadAluna: UploadAluna.data.items });
+  // console.log({ UploadAluna: UploadAluna.data.items });
   return UploadAluna.data.items;
 };
 
 // SHAON RIVER B API
 export const ProfileShaon = async () => {
   const profileShaon = await axios.get(`${BASE_URL}/channels?id=UCaA0fTyVeb7XRmtJ9ZcBoKQ&key=${API_KEY}&part=snippet,statistics`);
-  console.log({ profileShaon: profileShaon.data });
+  // console.log({ profileShaon: profileShaon.data });
   return profileShaon.data.items;
 };
 
 export const getDebutShaon = async () => {
   const debutShaon = await axios.get(`${BASE_URL}/videos?id=8ft97rM2g84&key=${API_KEY}&part=snippet`);
-  console.log({ debutShaon: debutShaon.data.items[0].snippet });
+  // console.log({ debutShaon: debutShaon.data.items[0].snippet });
   return debutShaon.data.items;
 };
 
 export const getVideoShaon = async () => {
   const UploadShaon = await axios.get(`${BASE_URL}/playlistItems?part=snippet&playlistId=${PLAYLIST_ID_SHAON}&maxResults=18&key=${API_KEY}`);
-  console.log({ UploadShaon: UploadShaon.data.items });
+  // console.log({ UploadShaon: UploadShaon.data.items });
   return UploadShaon.data.items;
 };
 
@@ -140,19 +140,19 @@ export const getVideoShaon = async () => {
 // Althea Antonia API
 export const ProfileAlthea = async () => {
   const profileAlthea = await axios.get(`${BASE_URL}/channels?id=UCh1hZ_Zvv3anRNH8Nh-N2WA&key=${API_KEY}&part=snippet,statistics`);
-  console.log({ profileAlthea: profileAlthea.data });
+  // console.log({ profileAlthea: profileAlthea.data });
   return profileAlthea.data.items;
 };
 
 export const getDebutAlthea = async () => {
   const debutAlthea = await axios.get(`${BASE_URL}/videos?id=qW_yI2J31ME&key=${API_KEY}&part=snippet`);
-  console.log({ debutAlthea: debutAlthea.data.items[0].snippet });
+  // console.log({ debutAlthea: debutAlthea.data.items[0].snippet });
   return debutAlthea.data.items;
 };
 
 export const getVideoAlthea = async () => {
   const UploadAlthea = await axios.get(`${BASE_URL}/playlistItems?part=snippet&playlistId=${PLAYLIST_ID_ALTHEA}&maxResults=18&key=${API_KEY}`);
-  console.log({ UploadAlthea: UploadAlthea.data.items });
+  // console.log({ UploadAlthea: UploadAlthea.data.items });
   return UploadAlthea.data.items;
 };
 
@@ -160,19 +160,19 @@ export const getVideoAlthea = async () => {
 // Shiraishi Oriel API
 export const ProfileOriel = async () => {
   const profileOriel = await axios.get(`${BASE_URL}/channels?id=UCksATXnF-u3-XMjsEI3-_Gw&key=${API_KEY}&part=snippet,statistics`);
-  console.log({ profileOriel: profileOriel.data });
+  // console.log({ profileOriel: profileOriel.data });
   return profileOriel.data.items;
 };
 
 export const getDebutOriel = async () => {
   const debutOriel = await axios.get(`${BASE_URL}/videos?id=HZc95aWFmM4&key=${API_KEY}&part=snippet`);
-  console.log({ debutOriel: debutOriel.data.items[0].snippet });
+  // console.log({ debutOriel: debutOriel.data.items[0].snippet });
   return debutOriel.data.items;
 };
 
 export const getVideoOriel = async () => {
   const UploadOriel = await axios.get(`${BASE_URL}/playlistItems?part=snippet&playlistId=${PLAYLIST_ID_ORIEL}&maxResults=18&key=${API_KEY}`);
-  console.log({ UploadOriel: UploadOriel.data.items });
+  // console.log({ UploadOriel: UploadOriel.data.items }); 
   return UploadOriel.data.items;
 };
 

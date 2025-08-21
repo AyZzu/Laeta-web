@@ -59,7 +59,7 @@ const AboutSevina = () => {
       <div className="Hatline" data-aos="fade-up" data-aos-duration="700">
         <h1>Friend's</h1>
       </div>
-      <div className="friends">
+      <div className="friendsSevina">
         <div className="friendProf" data-aos="fade-up" data-aos-duration="800">
           <a href="https://www.youtube.com/@MilaDragon17" target="blank">
           <img src={FPMILA} width={100} />

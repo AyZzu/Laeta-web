@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "aos/dist/aos.css";
-import AOS from "aos"
+import AOS from "aos";
 
 import "../subComponent/AiriP.css";
 
@@ -21,11 +21,9 @@ const formatNumber = (num) => {
 };
 
 const AiriAirintika = () => {
-
-
-      AOS.init({
-            offset:0,
-      })
+  AOS.init({
+    offset: 0,
+  });
   // const [popularMila, setPopularMila] = useState([]);
   const [DataAiri, setDataAiri] = useState([]);
   const [VideoAiri, setVideoAiri] = useState([]);
@@ -42,9 +40,9 @@ const AiriAirintika = () => {
     getVideoAiri().then((items) => {
       setVideoAiri(items);
     });
-      //   getVideo().then((items) => {
-      //     setVideo(items);
-      //   });
+    //   getVideo().then((items) => {
+    //     setVideo(items);
+    //   });
   }, []);
 
   const renderSection = () => {
@@ -137,6 +135,13 @@ const AiriAirintika = () => {
               </li>
             </div>
             <div className="navComp">{renderSection()}</div>
+            <div className="PageRes">
+              <div className="wrapperRes">
+                <AboutAiri />
+                <VideoAiris data={VideoAiri} />
+                <SosmedAiri />
+              </div>
+            </div>
           </div>
         </div>
       </div>

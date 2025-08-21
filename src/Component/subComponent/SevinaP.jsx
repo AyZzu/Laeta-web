@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "aos/dist/aos.css";
-import AOS from "aos"
+import AOS from "aos";
 
 import "../subComponent/SevinaP.css";
 
@@ -21,11 +21,9 @@ const formatNumber = (num) => {
 };
 
 const SevinaReina = () => {
-
-
-      AOS.init({
-            offset:0,
-      })
+  AOS.init({
+    offset: 0,
+  });
   // const [popularMila, setPopularMila] = useState([]);
   const [DataSevina, setDataSevina] = useState([]);
   const [VideoSevina, setVideoSevina] = useState([]);
@@ -137,6 +135,13 @@ const SevinaReina = () => {
               </li>
             </div>
             <div className="navComp">{renderSection()}</div>
+            <div className="PageRes">
+              <div className="wrapperRes">
+                {/* <AboutSevina /> */}
+                <VideoSevinas data={VideoSevina} />
+                <SosmedSevina />
+              </div>
+            </div>
           </div>
         </div>
       </div>

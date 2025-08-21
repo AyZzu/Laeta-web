@@ -63,7 +63,7 @@ const AboutShaon = () => {
       <div className="Hatline" data-aos="fade-up" data-aos-duration="700">
         <h1>Friend's</h1>
       </div>
-      <div className="friends">
+      <div className="friendsShaon">
         <div className="friendProf" data-aos="fade-up" data-aos-duration="800">
           <a href="https://www.youtube.com/@SevinaReina" target="blank">
             <img src={FPSEVINA} width={100} />

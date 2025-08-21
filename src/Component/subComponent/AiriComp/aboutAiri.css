@@ -1,11 +1,15 @@
-.aboutAiri {
-    width: 95%;
-    height: 100%;
-    overflow: hidden;
-}
-
-
-/* .Hatline {
+    .aboutAiri {
+        width: 95%;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    @media only screen and (max-width: 1000px) {
+        .friendsAiri {
+            display: none;
+        }
+    }
+    /* .Hatline {
     font-size: 15px;
     margin: 0px;
     padding: 0px;

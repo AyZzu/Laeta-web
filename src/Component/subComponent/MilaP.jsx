@@ -132,8 +132,8 @@ const MilaDragon = () => {
             <div className="PageRes">
               <div className="wrapperRes">
                 <AboutMila />
-                <VideoMilas data={VideoMila}/>
-              <SosmedMila/>
+                <VideoMilas data={VideoMila} />
+                <SosmedMila />
               </div>
             </div>
           </div>

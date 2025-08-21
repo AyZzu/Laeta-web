@@ -40,23 +40,23 @@ const AlunaDiva = () => {
     getVideoAluna().then((items) => {
       setVideoAluna(items);
     });
-//     getVideo().then((items) => {
-//       setVideo(items);
-//     });
+    //     getVideo().then((items) => {
+    //       setVideo(items);
+    //     });
   }, []);
 
-    const renderSection = () => {
-      switch (activeTab) {
-        case "about":
-          return <AboutAluna />;
-        case "video":
-          return <VideoAlunas data={VideoAluna} />;
-        case "stats":
-          return <SosmedAluna />;
-        default:
-          return <AboutAluna />;
-      }
-    };
+  const renderSection = () => {
+    switch (activeTab) {
+      case "about":
+        return <AboutAluna />;
+      case "video":
+        return <VideoAlunas data={VideoAluna} />;
+      case "stats":
+        return <SosmedAluna />;
+      default:
+        return <AboutAluna />;
+    }
+  };
 
   const ProfileAlunaPage = DataAluna.map((items, i) => {
     return (
@@ -135,6 +135,13 @@ const AlunaDiva = () => {
               </li>
             </div>
             <div className="navComp">{renderSection()}</div>
+            <div className="PageRes">
+              <div className="wrapperRes">
+                {/* <AboutAluna /> */}
+                <VideoAlunas data={VideoAluna} />
+                <SosmedAluna />
+              </div>
+            </div>
           </div>
         </div>
       </div>

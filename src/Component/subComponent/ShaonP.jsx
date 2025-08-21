@@ -27,7 +27,7 @@ const ShaonRiverB = () => {
   // const [popularMila, setPopularMila] = useState([]);
   const [DataShaon, setDataShaon] = useState([]);
   const [VideoShaon, setVideoShaon] = useState([]);
-//   const [Video, setVideo] = useState([]);
+  //   const [Video, setVideo] = useState([]);
   const [activeTab, setActiveTab] = useState("about");
 
   useEffect(() => {
@@ -40,23 +40,23 @@ const ShaonRiverB = () => {
     getVideoShaon().then((items) => {
       setVideoShaon(items);
     });
-//     getVideo().then((items) => {
-//       setVideo(items);
-//     });
+    //     getVideo().then((items) => {
+    //       setVideo(items);
+    //     });
   }, []);
 
-    const renderSection = () => {
-      switch (activeTab) {
-        case "about":
-          return <AboutShaon />;
-        case "video":
-          return <VideoShaons data={VideoShaon} />;
-        case "stats":
-          return <SosmedShaon />;
-        default:
-          return <AboutShaon />;
-      }
-    };
+  const renderSection = () => {
+    switch (activeTab) {
+      case "about":
+        return <AboutShaon />;
+      case "video":
+        return <VideoShaons data={VideoShaon} />;
+      case "stats":
+        return <SosmedShaon />;
+      default:
+        return <AboutShaon />;
+    }
+  };
 
   const ProfileShaonPage = DataShaon.map((items, i) => {
     return (
@@ -135,6 +135,13 @@ const ShaonRiverB = () => {
               </li>
             </div>
             <div className="navComp">{renderSection()}</div>
+            <div className="PageRes">
+              <div className="wrapperRes">
+                {/* <AboutShaon /> */}
+                <VideoShaons data={VideoShaon} />
+                <SosmedShaon />
+              </div>
+            </div>
           </div>
         </div>
       </div>

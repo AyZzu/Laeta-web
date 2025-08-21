@@ -27,7 +27,7 @@ const ShiraishiOriel = () => {
   // const [popularMila, setPopularMila] = useState([]);
   const [DataOriel, setDataOriel] = useState([]);
   const [VideoOriel, setVideoOriel] = useState([]);
-//   const [Video, setVideo] = useState([]);
+  //   const [Video, setVideo] = useState([]);
   const [activeTab, setActiveTab] = useState("about");
 
   useEffect(() => {
@@ -45,18 +45,18 @@ const ShiraishiOriel = () => {
     // });
   }, []);
 
-    const renderSection = () => {
-      switch (activeTab) {
-        case "about":
-          return <AboutOriel />;
-        case "video":
-          return <VideoOriels data={VideoOriel} />;
-        case "stats":
-          return <SosmedOriel />;
-        default:
-          return <AboutOriel />;
-      }
-    };
+  const renderSection = () => {
+    switch (activeTab) {
+      case "about":
+        return <AboutOriel />;
+      case "video":
+        return <VideoOriels data={VideoOriel} />;
+      case "stats":
+        return <SosmedOriel />;
+      default:
+        return <AboutOriel />;
+    }
+  };
 
   const ProfileOrielPage = DataOriel.map((items, i) => {
     return (
@@ -135,6 +135,13 @@ const ShiraishiOriel = () => {
               </li>
             </div>
             <div className="navComp">{renderSection()}</div>
+            <div className="PageRes">
+              <div className="wrapperRes">
+                {/* <AboutOriel /> */}
+                <VideoOriels data={VideoOriel} />
+                <SosmedOriel />
+              </div>
+            </div>
           </div>
         </div>
       </div>

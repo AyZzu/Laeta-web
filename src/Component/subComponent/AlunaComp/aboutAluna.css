@@ -4,6 +4,12 @@
     overflow: hidden;
 }
 
+@media only screen and (max-width: 1000px) {
+    .friendsAluna {
+        display: none;
+    }
+}
+
 
 /* .Hatline {
     font-size: 15px;

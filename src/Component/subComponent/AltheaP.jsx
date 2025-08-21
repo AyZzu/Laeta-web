@@ -27,7 +27,7 @@ const AltheaAntonia = () => {
   // const [popularMila, setPopularMila] = useState([]);
   const [DataAlthea, setDataAlthea] = useState([]);
   const [VideoAlthea, setVideoAlthea] = useState([]);
-//   const [Video, setVideo] = useState([]);
+  //   const [Video, setVideo] = useState([]);
   const [activeTab, setActiveTab] = useState("about");
 
   useEffect(() => {
@@ -40,23 +40,23 @@ const AltheaAntonia = () => {
     getVideoAlthea().then((items) => {
       setVideoAlthea(items);
     });
-//     getVideo().then((items) => {
-//       setVideo(items);
-//     });
+    //     getVideo().then((items) => {
+    //       setVideo(items);
+    //     });
   }, []);
 
-    const renderSection = () => {
-      switch (activeTab) {
-        case "about":
-          return <AboutAlthea />;
-        case "video":
-          return <VideoAltheas data={VideoAlthea} />;
-        case "stats":
-          return <SosmedAlthea />;
-        default:
-          return <AboutAlthea />;
-      }
-    };
+  const renderSection = () => {
+    switch (activeTab) {
+      case "about":
+        return <AboutAlthea />;
+      case "video":
+        return <VideoAltheas data={VideoAlthea} />;
+      case "stats":
+        return <SosmedAlthea />;
+      default:
+        return <AboutAlthea />;
+    }
+  };
 
   const ProfileAltheaPage = DataAlthea.map((items, i) => {
     return (
@@ -135,6 +135,13 @@ const AltheaAntonia = () => {
               </li>
             </div>
             <div className="navComp">{renderSection()}</div>
+            <div className="PageRes">
+              <div className="wrapperRes">
+                {/* <AboutAlthea /> */}
+                <VideoAltheas data={VideoAlthea} />
+                <SosmedAlthea />
+              </div>
+            </div>
           </div>
         </div>
       </div>
