@@ -1,0 +1,13 @@
+.backTalent {
+    width: 250px;
+    position: fixed;
+}
+
+
+
+.buttonBack {
+    border: none;
+    align-items: center;
+    /* width: 225px; */
+    margin: 0px 0px 0px 200px;
+}

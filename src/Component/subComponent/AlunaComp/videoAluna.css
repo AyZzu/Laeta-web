@@ -1,0 +1,35 @@
+.listVideoAluna {
+    width: 95%;
+    height: 2000px;
+    /* background-color: antiquewhite; */
+}
+
+
+/* .wrapperListVideo {} */
+
+.listVideo {
+    width: 290px;
+    /* background-color: aqua; */
+    height: 250px;
+    padding: 10px;
+    align-items: end;
+    /* overflow: hidden; */
+}
+
+.listVideo a img {
+    border-radius: 20px;
+}
+
+.titleVideo a h2 {
+    font-size: 15px;
+    color: black;
+}
+
+.videoList {
+    display: flex;
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}

@@ -1,0 +1,33 @@
+.listVideoSevina {
+    width: 95%;
+    /* background-color: antiquewhite; */
+}
+
+
+/* .wrapperListVideo {} */
+
+.listVideo {
+    width: 290px;
+    /* background-color: aqua; */
+    height: 250px;
+    padding: 10px;
+    align-items: end;
+}
+
+.listVideo a img {
+    border-radius: 20px;
+}
+
+.titleVideo a h2 {
+    font-size: 15px;
+    color: black;
+}
+
+.videoList {
+    display: flex;
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}

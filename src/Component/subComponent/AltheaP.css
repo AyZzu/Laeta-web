@@ -1,0 +1,171 @@
+.AltheaMainPage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapperMainAlthea {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner img {
+    min-width: 100%;
+    max-height: auto;
+    border-radius: 0px 0px 100px 100px;
+    align-items: center;
+}
+
+.Profile {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    /* background-color: aqua; */
+}
+
+.profKiri {
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 60px; */
+    align-items: center;
+    margin: 0px;
+    /* background-color: aqua; */
+}
+
+.secProf1 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.secProf1 h2,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.stat {
+    width: 100%;
+    height: 70px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.sub,
+.view {
+    width: 80px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub h4,
+p,
+.view h4,
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.fotop {
+    align-items: center;
+}
+
+.Fp {
+    border-radius: 100%;
+    border: 5px solid white;
+    align-items: center;
+}
+
+.secProf2 {
+    width: 100%;
+    padding-top: 20px;
+    background-color: #3db7fe;
+    border-radius: 20px;
+}
+
+.listProfile {
+    margin: 0px 0px 0px 20px;
+}
+
+.listProfile h2 {
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.listProfile p {
+    font-size: 17px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.profKanan {
+    width: 80%;
+    height: auto;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* background-color: red; */
+}
+
+.navBarAlthea {
+    width: 70%;
+    height: 50px;
+    background-color: #3db7fe;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-radius: 50px 20px 0px 0px;
+}
+
+.listNavAlthea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listNavAlthea button {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    transition: 0.3s ease-in-out;
+    border: none;
+    background-color: #3db7fe;
+    cursor: pointer;
+}
+
+.listNavAlthea button:hover {
+    color: rgb(61, 183, 254);
+    background-color: white;
+}
+
+.navComp {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+}

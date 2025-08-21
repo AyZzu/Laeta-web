@@ -1,0 +1,73 @@
+.aboutAluna {
+    width: 95%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.Hatline {
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    color: #3db7fe;
+}
+
+.Lore {
+    width: 95%;
+    background-color: rgb(61, 183, 254);
+    padding: 20px;
+    border-radius: 20px;
+    text-wrap: wrap;
+}
+
+.Lore p {
+    color: white;
+}
+
+.friends {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.friends img {
+    border-radius: 100%;
+}
+
+.friendProf {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.friendProf h6 {
+    font-size: 12px;
+    align-self: center;
+    margin: 10px 0px 0px 0px;
+}
+
+.debutThumb {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.textDebut {
+    display: flex;
+    flex-direction: column;
+}
+
+.textDebut a {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin: 0px 0px 10px 0px;
+}
+
+.textDebut p {
+    font-size: 15px;
+    color: rgb(92, 92, 92);
+}
