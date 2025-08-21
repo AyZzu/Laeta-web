@@ -5,7 +5,7 @@ import Navbar from "../Component/Navbar";
 import Hero from "../Component/Hero";
 import About from "../Component/About";
 import Talent from "../Component/Talent";
-import News from "../Component/News";
+// import News from "../Component/News";
 import Footer from "../Component/Footer";
 
 import { Helmet } from "react-helmet";
@@ -19,7 +19,7 @@ const Home = () => (
     <Hero />
     <About />
     <Talent />
-    <News />
+    {/* <News /> */}
     <Footer />
   </div>
 );

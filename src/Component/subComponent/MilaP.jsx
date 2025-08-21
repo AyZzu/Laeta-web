@@ -129,6 +129,13 @@ const MilaDragon = () => {
               </li>
             </div>
             <div className="navComp">{renderSection()}</div>
+            <div className="PageRes">
+              <div className="wrapperRes">
+                <AboutMila />
+                <VideoMilas data={VideoMila}/>
+              <SosmedMila/>
+              </div>
+            </div>
           </div>
         </div>
       </div>

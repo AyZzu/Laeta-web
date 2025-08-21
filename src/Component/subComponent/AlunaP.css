@@ -1,31 +1,30 @@
-.AlunaMainPage {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-}
-
-.wrapperMainAluna {
-    width: 85%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.banner img {
-    min-width: 100%;
-    max-height: auto;
-    border-radius: 0px 0px 100px 100px;
-    align-items: center;
-}
-
+            .AlunaMainPage {
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .wrapperMainAluna {
+                width: 85%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .banner img {
+                min-width: 100%;
+                max-height: auto;
+                border-radius: 0px 0px 100px 100px;
+                align-items: center;
+            }
+            /*
 .Profile {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 100%;
     align-self: center;
-    /* background-color: aqua; */
 }
 
 .profKiri {
@@ -33,10 +32,8 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    /* padding-top: 60px; */
     align-items: center;
     margin: 0px;
-    /* background-color: aqua; */
 }
 
 .secProf1 {
@@ -57,7 +54,6 @@ p {
 .stat {
     width: 100%;
     height: 70px;
-    /* background-color: aqua; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,48 +120,46 @@ p {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    /* background-color: red; */
-}
-
-.navBarAluna {
-    width: 70%;
-    height: 50px;
-    background-color: #3db7fe;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    border-radius: 50px 20px 0px 0px;
-}
-
-.listNavAluna {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.listNavAluna button {
-    width: 150px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    color: white;
-    transition: 0.3s ease-in-out;
-    border: none;
-    background-color: #3db7fe;
-    cursor: pointer;
-}
-
-.listNavAluna button:hover {
-    color: rgb(61, 183, 254);
-    background-color: white;
-}
-
-.navComp {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: end;
-    align-items: flex-start;
-}
+} */
+            
+            .navBarAluna {
+                width: 70%;
+                height: 50px;
+                background-color: #3db7fe;
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                border-radius: 50px 20px 0px 0px;
+            }
+            
+            .listNavAluna {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .listNavAluna button {
+                width: 150px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 18px;
+                color: white;
+                transition: 0.3s ease-in-out;
+                border: none;
+                background-color: #3db7fe;
+                cursor: pointer;
+            }
+            
+            .listNavAluna button:hover {
+                color: rgb(61, 183, 254);
+                background-color: white;
+            }
+            /* .navComp {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: end;
+                align-items: flex-start;
+            } */

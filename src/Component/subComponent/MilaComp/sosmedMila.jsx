@@ -13,7 +13,7 @@ const SosmedMila = () => {
   return (
     <div className="sosMed" data-aos="fade-in" data-aos-duration="900">
       <h1 data-aos="fade-up" data-aos-duration="700">
-        Recent Video
+        Social Media
       </h1>
       <div className="wrapperSosmed">
         <div className="YTSosmed" data-aos="fade-up" data-aos-duration="800">

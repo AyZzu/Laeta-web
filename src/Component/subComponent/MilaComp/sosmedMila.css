@@ -77,3 +77,21 @@
     color: #3eb8fe;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 1000px) {
+    .sosMed {
+        width: 100%;
+        margin: 0px 0px 50px 0px;
+    }
+    .wrapperSosmed {
+        width: 100%;
+    }
+    .IGSosmed button,
+    .YTSosmed button,
+    .XSosmed button,
+    .TrakteerSosmed button,
+    .TakoSosmed button,
+    .SoBuzzSosmed button {
+        width: 300px;
+    }
+}
