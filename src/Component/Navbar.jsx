@@ -75,7 +75,7 @@ const Navbar = () => {
           <FaTimes className="burgers" size={30} color="#006ff5" />
         </div>
 
-        <a className="button" href="#">
+        {/* <a className="button" href="#">
           About
         </a>
         <a className="button" href="#">
@@ -86,7 +86,22 @@ const Navbar = () => {
         </a>
         <a className="button" href="#">
           Contact
-        </a>
+        </a> */}
+        <Link to="#hero" className="button">
+          Home
+        </Link>
+        <Link to="#about" className="button">
+          About
+        </Link>
+        <Link to="#talent" className="button">
+          Member
+        </Link>
+        <Link to="#news" className="button">
+          News
+        </Link>
+        <Link to="/" className="button">
+          Audition
+        </Link>
       </div>
     </nav>
   );

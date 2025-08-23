@@ -1,7 +1,6 @@
     .hero {
         width: 100%;
         height: 100vh;
-        /* background-color: aqua; */
     }
     
     .wrapperHero {
@@ -15,6 +14,7 @@
     }
     
     .heroImg {
+        display: block;
         width: 1000px;
     }
     
@@ -41,6 +41,7 @@
             display: none;
         }
         .bgHero {
+            display: block;
             position: absolute;
             width: 1000px;
         }

@@ -22,9 +22,10 @@
     },
     "scripts": {
         "start": "vite",
-        "build": "tsc && vite build",
+        "build": "vite build",
         "serve": "vite preview",
-        "startBuild": "serve -s dist -l $PORT"
+        "startBuild": "serve -s dist -l $PORT",
+        "dev": "vite"
     },
     "eslintConfig": {
         "extends": [

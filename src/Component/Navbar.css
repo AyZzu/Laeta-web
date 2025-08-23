@@ -102,7 +102,7 @@ a {
         z-index: 2;
         position: fixed;
         pointer-events: none;
-        /* background-color: #006ff5; */
+        /* background-color: black; */
     }
     .wrapper {
         position: fixed;
@@ -122,14 +122,15 @@ a {
         width: 100%;
         margin-left: 40px;
     }
-    .Reskanan {
+    /* .Reskanan {
         display: flex;
         justify-content: end;
         width: 100%;
         align-items: center;
         pointer-events: auto;
-        /* position: relative; */
-        /* background-color: #006ff5; */
+    } */
+    .Reskanan {
+        display: none;
     }
     .kananBur {
         display: flex;
