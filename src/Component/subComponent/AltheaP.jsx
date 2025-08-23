@@ -137,7 +137,7 @@ const AltheaAntonia = () => {
             <div className="navComp">{renderSection()}</div>
             <div className="PageRes">
               <div className="wrapperRes">
-                {/* <AboutAlthea /> */}
+                <AboutAlthea />
                 <VideoAltheas data={VideoAlthea} />
                 <SosmedAlthea />
               </div>

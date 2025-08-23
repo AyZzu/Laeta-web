@@ -4,7 +4,23 @@
     overflow: hidden;
 }
 
+.friendsSevina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.friendsSevina img {
+    border-radius: 100%;
+}
+
 @media only screen and (max-width: 1000px) {
+    .aboutSevina {
+        width: 100%;
+        height: 100%;
+    }
     .friendsSevina {
         display: none;
     }

@@ -137,7 +137,7 @@ const ShaonRiverB = () => {
             <div className="navComp">{renderSection()}</div>
             <div className="PageRes">
               <div className="wrapperRes">
-                {/* <AboutShaon /> */}
+                <AboutShaon />
                 <VideoShaons data={VideoShaon} />
                 <SosmedShaon />
               </div>

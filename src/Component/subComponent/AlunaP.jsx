@@ -137,7 +137,7 @@ const AlunaDiva = () => {
             <div className="navComp">{renderSection()}</div>
             <div className="PageRes">
               <div className="wrapperRes">
-                {/* <AboutAluna /> */}
+                <AboutAluna />
                 <VideoAlunas data={VideoAluna} />
                 <SosmedAluna />
               </div>

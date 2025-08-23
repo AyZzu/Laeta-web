@@ -137,7 +137,7 @@ const ShiraishiOriel = () => {
             <div className="navComp">{renderSection()}</div>
             <div className="PageRes">
               <div className="wrapperRes">
-                {/* <AboutOriel /> */}
+                <AboutOriel />
                 <VideoOriels data={VideoOriel} />
                 <SosmedOriel />
               </div>

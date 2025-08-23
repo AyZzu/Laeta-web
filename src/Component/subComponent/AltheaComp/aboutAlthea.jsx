@@ -60,7 +60,7 @@ const AboutAlthea = () => {
       <div className="debutVideo">{DebutAlthea}</div>
 
       {/* FRIEND */}
-      <div className="Hatline" data-aos="fade-up" data-aos-duration="700">
+      <div className="Hatline friendText" data-aos="fade-up" data-aos-duration="700">
         <h1>Friend's</h1>
       </div>
       <div className="friendsAlthea">

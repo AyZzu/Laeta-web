@@ -137,7 +137,7 @@ const SevinaReina = () => {
             <div className="navComp">{renderSection()}</div>
             <div className="PageRes">
               <div className="wrapperRes">
-                {/* <AboutSevina /> */}
+                <AboutSevina />
                 <VideoSevinas data={VideoSevina} />
                 <SosmedSevina />
               </div>

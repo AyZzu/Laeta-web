@@ -4,7 +4,23 @@
     overflow: hidden;
 }
 
+.friendsAluna {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.friendsAluna img {
+    border-radius: 100%;
+}
+
 @media only screen and (max-width: 1000px) {
+    .aboutAluna {
+        width: 100%;
+        height: 100%;
+    }
     .friendsAluna {
         display: none;
     }
