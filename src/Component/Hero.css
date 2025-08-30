@@ -4,12 +4,15 @@
     }
     
     .wrapperHero {
-        width: 100%;
+        width: auto;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        position: relative;
+        overflow: visible;
+        /* biar anak bisa keluar */
         /* background-color: aqua; */
     }
     
@@ -43,7 +46,7 @@
         .bgHero {
             display: block;
             position: absolute;
-            width: 1000px;
+            width: 2000px;
         }
         .LogoRes {
             display: block;

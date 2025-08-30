@@ -11,7 +11,7 @@ import Footer from "../Component/Footer";
 import { Helmet } from "react-helmet";
 
 const Home = () => (
-  <div>
+  <div className="home">
     <Helmet>
       <title>Laeta Indonesia</title>
     </Helmet>

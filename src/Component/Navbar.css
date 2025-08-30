@@ -60,7 +60,7 @@ a {
     content: "";
     position: absolute;
     z-index: -1;
-    background-color: rgb(61, 183, 254);
+    background-color: #3db7fe;
     transition: all 0.2s ease;
     width: 0;
     height: 100%;
@@ -98,7 +98,7 @@ a {
         display: flex;
         justify-content: flex-end;
         height: 100%;
-        width: 100%;
+        width: 100vw;
         z-index: 2;
         position: fixed;
         pointer-events: none;
@@ -122,15 +122,12 @@ a {
         width: 100%;
         margin-left: 40px;
     }
-    /* .Reskanan {
+    .Reskanan {
         display: flex;
         justify-content: end;
         width: 100%;
         align-items: center;
         pointer-events: auto;
-    } */
-    .Reskanan {
-        display: none;
     }
     .kananBur {
         display: flex;
@@ -159,6 +156,9 @@ a {
         transition: all 0.5s;
         z-index: 10;
         pointer-events: auto;
+        padding: 100px 0px 0px 0px;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
     .sidenav a {
         display: flex;
@@ -167,7 +167,7 @@ a {
         text-decoration: none;
         font-size: 25px;
         height: 50px;
-        color: #006ff5;
+        color: #3db7fe;
     }
     .sidenav.active {
         right: 0px;

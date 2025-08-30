@@ -1,9 +1,10 @@
-body {
+.home {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     overflow-x: hidden;
-    background-color: antiquewhite;
+    overflow-y: hidden;
+    /* background-color: antiquewhite; */
 }
