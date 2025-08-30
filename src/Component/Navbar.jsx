@@ -96,9 +96,9 @@ const Navbar = () => {
         <Link to="#talent" className="button">
           Member
         </Link>
-        <Link to="#news" className="button">
+        {/* <Link to="#news" className="button">
           News
-        </Link>
+        </Link> */}
         <Link to="/" className="button">
           Audition
         </Link>
