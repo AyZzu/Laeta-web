@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import axios from "axios";
 
 import "../Component/Hero.css";
-import heroFot from "../assets/Fotbar1.png";
+import heroFot from "../assets/FotBar1.png";
 import Logos from "../assets/LaetaLogos.png";
 import bgHero from "../assets/FotBar2.png";
 import LogoRes from "../assets/LaetaLogoD.png";
