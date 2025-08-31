@@ -97,13 +97,13 @@ const SevinaReina = () => {
                   Birthday
                 </h2>
                 <p data-aos="fade-up" data-aos-duration="900">
-                  April 11 (Aries)
+                  January 11 (Capricorn)
                 </p>
                 <h2 data-aos="fade-up" data-aos-duration="950">
                   Height
                 </h2>
                 <p data-aos="fade-up" data-aos-duration="1000">
-                  163 cm (5′4″)
+                  169 cm 
                 </p>
                 <h2 data-aos="fade-up" data-aos-duration="1050">
                   Weight
@@ -122,6 +122,12 @@ const SevinaReina = () => {
                 </h2>
                 <p data-aos="fade-up" data-aos-duration="1300">
                   2024, April 14
+                </p>
+                <h2 data-aos="fade-up" data-aos-duration="1250">
+                  ReDebut Date
+                </h2>
+                <p data-aos="fade-up" data-aos-duration="1300">
+                  2025, Agustus 30
                 </p>
               </div>
             </div>
