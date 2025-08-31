@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import axios from "axios";
 
 import "../Component/About.css";
-import imgAbout from "../assets/FotBar2.png";
+import imgAbout from "../assets/fotBar2.png";
 import "swiper/css";
 import "swiper/css/pagination";
 
